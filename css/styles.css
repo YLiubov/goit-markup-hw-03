@@ -64,12 +64,21 @@ img {
 .header-nav {
 	display: flex;
 	align-items: center;
-	gap: 40px;
+}
+
+.header-nav-item {
+	display: flex;
 }
 
 .header-nav-list {
 	padding-top: 24px;
 	padding-bottom: 24px;
+	gap: 40px;
+	margin-right: 40px;
+}
+
+.header-nav-list:last-child {
+	margin-right: 0;
 }
 
 .logo {	
@@ -103,10 +112,24 @@ img {
 	display: flex;
 }
 
+.header-address-item {
+	display: flex;
+	align-items: center;
+}
+
 .header-address-link {
 	line-height: 1.5;
 	color: var(--color-slate);
 	gap: 40px;
+}
+
+.header-address-list {
+	display: flex;
+	margin-right: 40px;
+}
+
+.header-address-list:last-child {
+	margin-right: 0;
 }
 
 .header-address-link:hover,
