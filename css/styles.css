@@ -1,0 +1,225 @@
+:root {
+	/*  fonts  */
+	--primary-font: 'Roboto', sans-serif;
+	--secondy-font: 'Raleway', sans-serif;
+	/*  color  */
+	--color-iris: #4d5ae5;
+	--color-ocean: #404bbf;
+	--color-navy-blue: #2e2f42;
+	--color-green: #31d0aa;
+	--color-slate: #434455;
+	--color-light-slate: #8e8f99;
+	--color-cornflower: #e7e9fc;
+	--color-cloud: #f4f4fd;
+	--color-navy-blue-modal: #2e2f42;
+	--color-grey: #2e2f42;
+	--color-white: #ffffff;
+	--color-dairy: #fcfcfc;
+	/*  others  */
+}
+
+/*
+========= base style ========= 
+*/
+body {
+	font-family: var(--primary-font);
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	color: var(--color-slate);
+	background-color: var(--color-white);
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.header-address {
+	font-style: normal;
+}
+
+/*
+========= header style ========= 
+*/
+
+.logo {	
+	font-family: var(--secondy-font);
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--color-iris);
+}
+
+.header-logo {
+	color: var(--color-navy-blue);
+}
+
+.header-nav-link {
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color:var(--color-navy-blue);
+}
+
+.header-nav-link:hover, 
+.header-nav-link:focus {
+	color: var(--color-ocean);
+}
+
+.header-address-link {
+	line-height: 1.5;
+	color: var(--color-slate);
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+	color: var(--color-ocean);
+}
+
+/*
+========= hero style ========= 
+*/
+.hero {
+	background-color: var(--color-navy-blue);
+}
+.hero-title {
+	text-align: center;
+	letter-spacing: 0.02em;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	color: var(--color-white);
+}
+.hero-button {
+	font-family: var(--primary-font);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	cursor: pointer;
+	background-color: var(--color-iris);
+	color:var(--color-white);
+	}
+.hero-button:hover,
+.hero-button:focus {
+	background-color: var(--color-ocean);
+}
+
+/*
+========= advantages style ========= 
+*/
+
+.advantages-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--color-navy-blue-modal);
+}
+.advantages-desc {
+	line-height: 1.5;
+}
+
+/*
+========= action style ========= 
+*/
+
+.action-title {
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: var(--color-navy-blue-modal);
+}
+
+/*
+========= team style ========= 
+*/
+
+.team {
+	background-color: var(--color-cloud);
+}
+.team-title {
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: var(--color-grey);
+}
+.team-sub-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--color-grey);
+	}
+.team-desc {
+line-height: 1.5;
+text-align: center;
+color: var(--color-slate);
+}
+.team-item {
+	background-color: var(--color-white);
+}
+
+/*
+========= footer style ========= 
+*/
+
+
+.footer {
+	background-color: var(--color-navy-blue);
+}
+.logo-footer {
+	color: var(--color-cloud);
+}
+.footer-desc {
+	line-height: 1.5;
+	color: var(--color-cloud);
+}
+
+/*
+========= portfolio style ========= 
+*/
+
+.portfolio-button {
+	font-family: var(--primary-font);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: var(--color-iris);
+	cursor: pointer;
+	background-color: var(--color-cloud);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+	background-color: var(--color-ocean);
+	color: var(--color-white);
+}
+
+/*
+========= portfolio card ========= 
+*/
+
+.main-card-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--color-grey);
+}
+.main-card-text {
+	line-height: 1.5;
+	color: var(--color-slate);
+}
