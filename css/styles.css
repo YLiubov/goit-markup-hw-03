@@ -48,6 +48,29 @@ img {
 /*
 ========= header style ========= 
 */
+.header {
+	border-bottom: 1px solid #E7E9FC;
+}
+
+.header-container {
+	display: flex;
+}
+.container {
+	width: 1158px;
+	margin: 0 auto;
+	padding: 0 15px 0 15px;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+
+.header-nav-list {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
 
 .logo {	
 	font-family: var(--secondy-font);
@@ -57,6 +80,7 @@ img {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--color-iris);
+	margin-right: 76px;
 }
 
 .header-logo {
@@ -75,9 +99,14 @@ img {
 	color: var(--color-ocean);
 }
 
+.header-address {
+	display: flex;
+}
+
 .header-address-link {
 	line-height: 1.5;
 	color: var(--color-slate);
+	gap: 40px;
 }
 
 .header-address-link:hover,
