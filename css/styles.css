@@ -164,6 +164,12 @@ img {
 	cursor: pointer;
 	background-color: var(--color-iris);
 	color:var(--color-white);
+	display: block;
+	min-width: 169px;
+	height: 56px;
+	border: none; 
+	border-radius: 4px;
+	cursor: pointer;
 	}
 .hero-button:hover,
 .hero-button:focus {
