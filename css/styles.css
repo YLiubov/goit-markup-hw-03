@@ -80,8 +80,6 @@ img {
 
 .header-nav-list {
 	margin-right: 40px;
-	padding: 24px 0;
-	padding-left: 0;
 }
 
 .header-nav-list:last-child {
@@ -108,6 +106,8 @@ img {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color:var(--color-navy-blue);
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
 .header-nav-link:hover, 
