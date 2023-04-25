@@ -193,6 +193,15 @@ img {
 	padding-bottom: 120px
 }
 
+.advantages-list {
+	gap: 24px;
+	margin-right: 24px;
+}
+
+.advantages-list:last-child {
+	margin-right: 0;
+}
+
 .advantages-element {
 	width: calc((100% - 72px) / 4);
 }
@@ -205,6 +214,7 @@ img {
 	color: var(--color-navy-blue-modal);
 	margin-bottom: 8px;
 }
+
 .advantages-desc {
 	line-height: 1.5;
 }
@@ -218,6 +228,7 @@ img {
 
 .action-element {
 	width: calc((100% - 3 * 16px) / 3);
+	flex-basis: calc((100% - 48px) / 3);
 }
 
 .action-title {
