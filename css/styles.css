@@ -35,6 +35,12 @@ img {
 
 .list {
 	list-style: none;
+	display: flex;
+	margin-right: 24px;
+}
+
+.list:last-child {
+	margin-right: 0;
 }
 
 .link {
@@ -147,7 +153,7 @@ img {
 	padding-bottom: 188px;
 }
 .hero-title {
-	width: 496px;
+	max-width: 496px;
 	font-size: 56px;
 	line-height: 1.07;
 	text-align: center;
@@ -187,16 +193,6 @@ img {
 	padding-bottom: 120px
 }
 
-.advantages-list {
-	display: flex;
-	gap: 24px; 
-	margin-right: 24px
-}
-
-.advantages-list:last-child {
-	margin-right: 0;
-}
-
 .advantages-element {
 	width: calc((100% - 72px) / 4);
 }
@@ -216,6 +212,13 @@ img {
 /*
 ========= action style ========= 
 */
+.action {
+	padding-bottom: 120px;
+}
+
+.action-element {
+	width: calc((100% - 3 * 16px) / 3);
+}
 
 .action-title {
 	font-size: 36px;
@@ -224,6 +227,7 @@ img {
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	color: var(--color-navy-blue-modal);
+	margin-bottom: 72px;
 }
 
 /*
